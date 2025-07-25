@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body, button, input {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#number-printer-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 250px;
+}
+
+#number-div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+    margin: auto;
+}
+
+#number-output {
+    width: 400px;
+    margin: 20px auto;
+}
