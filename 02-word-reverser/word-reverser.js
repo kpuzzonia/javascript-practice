@@ -1,31 +1,26 @@
-// Pseudocode
+// Word reverser app
 
-// split into an array of individual words 
-// use a loop to go through each word and reverse order
-// put sentence back together
-// output to user 
-// user pushes the reset button
-
+    // User enters sentence and submit button calls function
 function wordReverser() {
-    // User enters sentence
-    // submit button calls function
+
     // save sentence to a variable
     let userSentence = document.getElementById('user-input').value;
-    console.log(userSentence);
 
+    // split into an array of individual words and then reverse order
     let words = userSentence.split(" ");
     console.log(words);
-
     words.reverse();
     console.log(words);
 
+    // create new sentance with reversed order
     let newSentence = words.join(" ");
-    console.log(newSentence);
 
+    // output to user 
     let answer = document.getElementById("sentence-output");
     answer.innerHTML = newSentence;
 }
 
+// user pushes the reset button
 function refresh() {
     location.reload();
 }
