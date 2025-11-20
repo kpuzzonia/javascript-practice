@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Funnel Display', sans-serif;
+    background-color: grey;
+}
+
+#reverser-container {
+    text-align: center;
+    border: 2px solid grey;
+    width: 800px;
+    margin: 150px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+input {
+    margin: 0px 40px;
+}
+
+button {
+    font-family: 'Funnel Display', sans-serif;
+    padding: 8px 20px;
+}
+
