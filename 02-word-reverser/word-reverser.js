@@ -8,9 +8,7 @@ function wordReverser() {
 
     // split into an array of individual words and then reverse order
     let words = userSentence.split(" ");
-    console.log(words);
     words.reverse();
-    console.log(words);
 
     // create new sentance with reversed order
     let newSentence = words.join(" ");
